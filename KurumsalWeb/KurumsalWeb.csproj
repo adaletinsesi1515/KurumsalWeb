@@ -758,6 +758,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DataContext\KurumsalDBContext.cs" />
+    <Compile Include="Models\Model\Admin.cs" />
+    <Compile Include="Models\Model\Blog.cs" />
+    <Compile Include="Models\Model\Hakkimizda.cs" />
+    <Compile Include="Models\Model\Hizmet.cs" />
+    <Compile Include="Models\Model\Iletisim.cs" />
+    <Compile Include="Models\Model\Kategori.cs" />
+    <Compile Include="Models\Model\Kimlik.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -779,7 +787,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
