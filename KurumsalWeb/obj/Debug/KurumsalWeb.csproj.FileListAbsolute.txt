@@ -46,7 +46,6 @@ C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\System.Web.Webpages.Dep
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\System.Web.Webpages.Razor.xml
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\System.Web.Helpers.xml
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\System.Web.Mvc.xml
-C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.csprojAssemblyReference.cache
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.csproj.CoreCompileInputs.cache
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.csproj.CopyComplete
 C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.dll
@@ -78,3 +77,7 @@ C:\Users\ab96085\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.cspr
 C:\Users\ab96085\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.csproj.CopyComplete
 C:\Users\ab96085\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.dll
 C:\Users\ab96085\source\repos\KurumsalWeb\KurumsalWeb\obj\Debug\KurumsalWeb.pdb
+C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\EntityFramework.dll
+C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\EntityFramework.xml
+C:\Users\Burdur\source\repos\KurumsalWeb\KurumsalWeb\bin\EntityFramework.SqlServer.xml

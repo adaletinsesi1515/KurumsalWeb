@@ -758,6 +758,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DataContext\KurumsalDBContext.cs" />
     <Compile Include="Models\Model\Admin.cs" />
     <Compile Include="Models\Model\Blog.cs" />
