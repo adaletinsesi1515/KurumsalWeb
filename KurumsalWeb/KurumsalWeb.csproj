@@ -760,7 +760,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DataContext\KurumsalDBContext.cs" />
-    <Compile Include="Models\Model\Admin.cs" />
+    <Compile Include="Models\Model\admin.cs" />
     <Compile Include="Models\Model\Blog.cs" />
     <Compile Include="Models\Model\Hakkimizda.cs" />
     <Compile Include="Models\Model\Hizmet.cs" />

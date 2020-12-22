@@ -11,7 +11,7 @@ namespace KurumsalWeb.Models.Model
     public class Iletisim
     {
         [Key]
-        public int IletisimId { get; set; }
+        public int IletisimID { get; set; }
 
         [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
         public string Adres { get; set; }
@@ -19,12 +19,19 @@ namespace KurumsalWeb.Models.Model
         [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
         public string Telefon { get; set; }
 
-        public string Fax { get; set; }
+        [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
+        public string Faks { get; set; }
+
+        [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
         public string Whatsapp { get; set; }
-        public string Facebook{ get; set; }
+
+        [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
+        public string Facebook { get; set; }
+
+        [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
         public string Twitter { get; set; }
-        public string Instgram { get; set; }
 
-
+        [StringLength(250, ErrorMessage = "250 karakter olmalıdır")]
+        public string Instagram { get; set; }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
@@ -10,16 +9,15 @@ namespace KurumsalWeb.Models.Model
     [Table("Blog")]
     public class Blog
     {
-        [Key] 
-        public int BlogId { get; set; }
+        public int BlogID { get; set; }
 
         public string Baslik { get; set; }
+
         public string Icerik { get; set; }
+
         public string ResimURL { get; set; }
 
-        public int? KategoriId { get; set; }
+        public int? KategoriID { get; set; }
         public Kategori Kategori { get; set; }
-
-
     }
 }

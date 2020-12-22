@@ -12,16 +12,17 @@ namespace KurumsalWeb.Models.Model
     public class Hizmet
     {
         [Key]
-        public int HizmetId { get; set; }
+        public int HizmetID { get; set; }
 
-        [Required, StringLength(150, ErrorMessage = "150 karakter olmalıdır")]
         [DisplayName("Hizmet Başlık")]
+        [Required, StringLength(150, ErrorMessage = "150 karakter olmalıdır")]
         public string Baslik { get; set; }
-
+        
         [DisplayName("Hizmet Açıklama")]
         public string Aciklama { get; set; }
 
         [DisplayName("Hizmet Resim")]
         public string ResimURL { get; set; }
+
     }
 }

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
+using System.Security.Principal;
 using System.Web;
 
 namespace KurumsalWeb.Models.Model
@@ -12,12 +13,10 @@ namespace KurumsalWeb.Models.Model
     public class Hakkimizda
     {
         [Key]
-        public int  HakkimizdaId{ get; set; }
+        public int HakkimizdaID { get; set; }
 
-        [Required]
-        [DisplayName("Hakkımızda Açıklama")]
+        [Required]  // veri girişi zorunlu olduğunu belirledik. 
+        [DisplayName("Hakkımızda Açıklama")] //Veritabanı oluşurken bu şekilde gözükmesini sağlıyor. 
         public string Aciklama { get; set; }
-
-
     }
 }

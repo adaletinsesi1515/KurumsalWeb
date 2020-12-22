@@ -1,8 +1,21 @@
-﻿
+﻿@model IEnumerable<KurumsalWeb.Models.Model.Kategori>
+
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<table>
+    <tr>
+        <th>Kategori ID</th>
+        <th>Kategori Adı</th>
+    </tr>
+    <tr>
+        @foreach (var item in Model)
+        {
+            <td>@item.KategoriID</td>
+            <td>@item.KategoriAd</td>
+        }
+    </tr>
+</table>
 
